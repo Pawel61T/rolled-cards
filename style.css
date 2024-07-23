@@ -1,1 +1,33 @@
+body {
+    background-color: #A9B0F5;
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card {
+    padding: 10px 5px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    flex: 1;
+    height: 100vh;
+}
+
+#first-card {
+    background-color: #F5E4A9;
+}
+
+#second-card {
+    background-color: #F5A9AA;
+}
+
+#third-card { 
+    background-color: #A9F5BE;
+}
+
+
 

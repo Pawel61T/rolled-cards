@@ -15,31 +15,31 @@ body {
     border-radius: 10px;
 
     height: 100vh;
-    animation-duration: 1s;
+    animation-duration: 5s;
 }
 
 #first-card {
     background-color: #F5E4A9;
-    width: 80%;
+    width: 80vw;
 }
 
 #second-card {
     background-color: #F5A9AA;
-    width: 10%;
+    width: 10vw;
 }
 
 #third-card { 
     background-color: #A9F5BE;
-    width: 10%;
+    width: 10vw;
 }
 
 @keyframes width80to10 {
-    from {width: 80%;}
-    to {width: 10%}
+    from {width: 80vw;} 
+    to {width: 10vw}
 }
 @keyframes width10to80 {
-    from {width: 10%}
-    to {width: 80%;}
+     from {width: 10vw} 
+    to {width: 80vw;}
 }
 
 

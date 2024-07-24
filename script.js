@@ -11,6 +11,12 @@ thirdCard.addEventListener("click", () => {cardClicked(thirdCard)})
 var lastSelected = firstCard
 
 function cardClicked(cardElement) {
-    cardElement.style.width = "80%";
+    if (lastSelected != cardElement) {
+        cardElement.style.animationName = "width10to80"
+        cardElement.style.width = "80vw";
+        lastSelected.style.animationName = "width80to10"
+        lastSelected.style.width = "10vw"
+    }
+    lastSelected = cardElement
     console.log(`clicked ${cardElement.id}`)
 }
